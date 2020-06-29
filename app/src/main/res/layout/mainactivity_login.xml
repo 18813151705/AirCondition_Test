@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="160dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button1"
+            android:layout_marginTop="45dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="220dp"
+            android:background="@drawable/buttonshape"
+            android:text="顾客登录"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="220dp"
+            android:background="@drawable/buttonshape"
+            android:text="管理员登录"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/button3"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="220dp"
+            android:background="@drawable/buttonshape"
+            android:text="经理登录"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/button4"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="220dp"
+            android:background="@drawable/buttonshape"
+            android:text="前台登录"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

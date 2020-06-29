@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_marginTop="15dp"
+                android:id="@+id/roomnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="请输入房间号"
+                android:textColorHint="#000000"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:inputType="text"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/get_account"
+                android:background="@drawable/buttonshape"
+                android:text="查看房间账单"
+                android:textColor="#FFF"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            <Button
+                android:id="@+id/get_Daccount"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/buttonshape"
+                android:text="查看房间详单"
+                android:textColor="#FFF"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/showaccount"
+            android:padding="20sp"
+            android:textSize="20sp"
+            android:background="@drawable/textviewborder"
+            android:textColor="#000000"
+            android:layout_width="300dp"
+            android:layout_height="340dp" />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/print_account"
+                android:background="@drawable/buttonshape"
+                android:text="打印房间账单"
+                android:textColor="#FFF"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            <Button
+                android:id="@+id/print_detailaccount"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/buttonshape"
+                android:text="打印房间详单"
+                android:textColor="#FFF"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/logout"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/buttonshape_red"
+            android:text="退出登录"
+            android:textColor="#FFF"
+            android:textSize="22sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

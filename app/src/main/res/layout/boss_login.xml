@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="160dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_marginTop="36dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="请输入您的账号"
+            android:textColorHint="#000000"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:inputType="textPersonName"
+            />
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="请输入密码"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:inputType="textPassword"
+            />
+        <Button
+            android:id="@+id/buttonlogin"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:width="220dp"
+            android:background="@drawable/buttonshape"
+            android:text="经理登录"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/backto"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:width="220dp"
+            android:background="@drawable/buttonshape_red"
+            android:text="返回"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
